@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10px"
+    android:paddingLeft="10px"
+    tools:context=".MainActivity">
+
+
+  <TextView
+      android:id="@+id/firstname"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="FirstName"
+      android:layout_margin="10px"
+      android:layout_marginTop="6000px"
+      android:textSize="20sp"
+
+
+
+      />
+
+  <EditText
+      android:layout_width="302dp"
+      android:layout_height="wrap_content"
+
+      android:layout_marginLeft="10px"
+      android:layout_toRightOf="@+id/firstname" />
+
+  <TextView
+      android:id="@+id/Email"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/firstname"
+      android:gravity="right"
+      android:text="Email"
+      android:textSize="20sp"
+
+
+      />
+
+  <EditText
+      android:layout_width="364dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/Email"
+      android:layout_marginLeft="30px"
+      android:layout_toRightOf="@+id/Email" />
+
+
+  <TextView
+      android:id="@+id/Phone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/Email"
+      android:gravity="right"
+      android:text="Phone no"
+      android:textSize="20sp"
+      />
+
+  <EditText
+      android:id="@+id/inputno"
+      android:layout_width="364dp"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/Phone"
+      android:layout_marginLeft="20px"
+      android:layout_toRightOf="@+id/Phone"
+      />
+
+  <Button
+      android:layout_width="266dp"
+      android:layout_height="97dp"
+      android:layout_below="@+id/inputno"
+      android:layout_marginTop="101dp"
+      android:text="Register"
+      android:textColor="#FFFFFFFF" />
+
+  <EditText
+      android:id="@+id/editTextTextPassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="textPassword" />
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20px"
+    android:paddingRight="20px"
+    android:orientation="vertical"
+    android:background="@drawable/bgvec"
+
+
+
+
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_marginTop="300px"
+    android:layout_width="200px"
+    android:layout_height="200px"
+android:src="@drawable/log"
+    android:layout_gravity="center"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:background="#03A9F4"
+        android:textColor="#4CAF50"
+        />
+
+
+</LinearLayout>

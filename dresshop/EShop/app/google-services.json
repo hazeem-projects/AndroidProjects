@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "640767513212",
+    "project_id": "dressshop-194af",
+    "storage_bucket": "dressshop-194af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640767513212:android:fb5edec759e05a38f2eff9",
+        "android_client_info": {
+          "package_name": "com.jiat.eshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640767513212-967oa3qcfre84rdqupmp79eh806oiqfj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jiat.eshop",
+            "certificate_hash": "8b4766ebd584691ca57e7bd393a990dec205e2e4"
+          }
+        },
+        {
+          "client_id": "640767513212-omgjpab895oj6s9e2tgjqp4tsdsmhhjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKvBsp9MFOUUHQG22IduQPLg4T6IcRbGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640767513212-omgjpab895oj6s9e2tgjqp4tsdsmhhjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

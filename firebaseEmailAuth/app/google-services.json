@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "43218504156",
+    "project_id": "fir-emailauth-60912",
+    "storage_bucket": "fir-emailauth-60912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43218504156:android:16a374240c7b18a7c4e719",
+        "android_client_info": {
+          "package_name": "com.example.firebaseemailauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43218504156-ekvgv7rhnp3lpobfpi5mihkcvb69ho07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseemailauth",
+            "certificate_hash": "8b4766ebd584691ca57e7bd393a990dec205e2e4"
+          }
+        },
+        {
+          "client_id": "43218504156-kb3hcn8cv540eal4nn4fvgedafeatlpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1d2vZqRUbFt5_BNruHg_1dRycax4vJ4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43218504156-kb3hcn8cv540eal4nn4fvgedafeatlpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

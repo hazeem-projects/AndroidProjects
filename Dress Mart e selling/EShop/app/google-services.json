@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "282259311501",
+    "project_id": "ecommercedress-f0951",
+    "storage_bucket": "ecommercedress-f0951.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282259311501:android:3f5977888f5ab9e02d4bc4",
+        "android_client_info": {
+          "package_name": "com.awh.Dressecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282259311501-3chebv2trea0qqt2m95c5c6s1kvv78c3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awh.Dressecommerce",
+            "certificate_hash": "8b4766ebd584691ca57e7bd393a990dec205e2e4"
+          }
+        },
+        {
+          "client_id": "282259311501-lg09mnaam47nrr9u42vk830n9g5crq1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD64liucQH5Mj4TgBTcAI1vFbjE152rsDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282259311501-lg09mnaam47nrr9u42vk830n9g5crq1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

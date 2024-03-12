@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:padding="50dp"
+    android:orientation="vertical"
+    android:theme="@style/Theme.DressSelling.FullScreen"
+    tools:context=".SignupActivity">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_baseline_person_24"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Register to Eshop"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/red"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        android:text="Name"
+        android:textSize="16sp"
+        />
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/custom_input_search"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/red"
+        android:text="Email"
+        android:textSize="16sp"
+        />
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/custom_input_search"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:text="Password"
+        android:textSize="16sp"
+        />
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:background="@drawable/custom_input_search"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:layout_marginTop="5dp"
+        android:text="Password must contains 6 characters"
+        android:textSize="12sp"
+        android:layout_gravity="end"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:layout_marginTop="5dp"
+        android:text="Retype Password"
+        android:textSize="16sp"
+        />
+    <EditText
+        android:id="@+id/signup_retypepassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:background="@drawable/custom_input_search"
+
+        />
+
+    <Button
+        android:id="@+id/signup_signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/red"
+
+        android:text="Sign Up"
+        android:textAllCaps="false" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="or, create a new account?"
+        android:textSize="12sp"
+        />
+    <Button
+        android:id="@+id/signup_signin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="signin"
+        android:textAllCaps="false" />
+
+
+
+</LinearLayout>
